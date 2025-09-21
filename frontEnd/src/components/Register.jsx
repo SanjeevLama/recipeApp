@@ -11,6 +11,8 @@ const loginImages = [
   '/recipe_4.png',
 ];
 
+const baseURL = import.meta.env.VITE_API_BASE_URL;
+
 function Register() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -30,11 +32,11 @@ function Register() {
     }
 
     try {
-      await axios.post('http://127.0.0.1:8000/api/register/', {
+      await axios.post(`${baseURL}/api/register/`, {
         username, password, email,
       });
 
-      const response = await axios.post('http://127.0.0.1:8000/api/token/', {
+      const response = await axios.post(`${baseURL}/api/token/`, {
         username, password,
       });
 
