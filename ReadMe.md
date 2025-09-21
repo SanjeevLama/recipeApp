@@ -92,8 +92,11 @@ python manage.py createsuperuser
 # Start the backend development server
 python manage.py runserver
 
+```
+
 ### 2. Frontend Setup
 
+```bash
 # Open a NEW terminal and navigate to the frontend directory
 cd frontend
 
