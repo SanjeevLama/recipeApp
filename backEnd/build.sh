@@ -2,9 +2,11 @@
 # exit on error
 set -o errexit
 
+# Install dependencies
+pip install -r requirements.txt
+
 # Change directory into the folder containing manage.py
 cd recipeApp
 
-# Now that we are in the correct directory, run the commands
-pip install -r requirements.txt
+# Run migrations
 python manage.py migrate
