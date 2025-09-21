@@ -5,7 +5,7 @@ import RecipeDetail from "./components/RecipeDetail";
 import Navbar from "./components/NavBar";
 import Login from "./components/Login";
 import Register from "./components/Register";
-import CreateRecipe from "./components/createRecipe";
+import CreateRecipe from "./components/CreateRecipe";
 import EditRecipe from "./components/EditRecipe";
 import Profile from './components/Profile'
 
