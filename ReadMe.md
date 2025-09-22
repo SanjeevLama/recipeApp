@@ -4,10 +4,7 @@ RecipeApp is a modern, feature-rich web application built with a decoupled archi
 
 This project was built to demonstrate a comprehensive understanding of full-stack development, from backend API design and database management with Docker to frontend state management and responsive UI design with modern tooling.
 
-**[Link to Live Demo]** - *(You can add your deployment link here later)*
-
-![RecipeApp Screenshot](./screenshot.png) 
-*(Suggestion: Add a screenshot of your app's homepage and name it `screenshot.png` in the project's root folder.)*
+**https://sparkling-fox-51e459.netlify.app/** - *Live Server Demo*
 
 ---
 
