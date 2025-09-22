@@ -153,9 +153,14 @@ REST_FRAMEWORK = {
 
 # CORS Config
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',
-    'http://127.0.0.1:5173'
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
 ]
+
+# Read the production frontend URL from an environment variable
+FRONTEND_URL = os.environ.get('FRONTEND_URL')
+if FRONTEND_URL:
+    CORS_ALLOWED_ORIGINS.append(FRONTEND_URL)
 
 SIMPLE_JWT = {
     "TOKEN_OBTAIN_SERIALIZER": "user.serializers.MyTokenObtainPairSerializer",
