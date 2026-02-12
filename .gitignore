@@ -1,0 +1,21 @@
+# General
+.DS_Store
+*.pyc
+
+# IDEs and Editors
+.idea/
+.vscode/
+
+# Python / Django
+__pycache__/
+*.sqlite3
+venv/
+.env
+
+# Frontend / Node.js
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
